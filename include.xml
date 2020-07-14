@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GitHub (minimalos) -->
+  <remote  name="minimalos"
+           revision="10"
+           fetch="https://github.com/Minimal-OS/" />
+
+<!-- Framework -->
+<project path="frameworks/base" name="frameworks_base" remote="minimalos" />
+
+<!-- Packages -->
+<project path="packages/apps/Settings" name="packages_apps_Settings" remote="minimalos" />
+<project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="minimalos" />
+<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="minimalos" />
+
+<!-- Platform Testing-->
+<project path="platform_testing" name="android_platform_testing" remote="minimalos" />
+
+<!--Device Tree-->
+<project path="device/essential/mata" name="device_essential_mata" remote="minimalos"/>
+
+</manifest>
