@@ -53,6 +53,7 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google_car" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
