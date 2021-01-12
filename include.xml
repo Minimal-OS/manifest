@@ -7,7 +7,7 @@
 
   <!-- GitHub (minimalos) -->
   <remote  name="minimalos"
-           revision="10"
+           revision="11"
            fetch="https://github.com/Minimal-OS/" />
 
 <!-- Framework -->
@@ -23,5 +23,8 @@
 
 <!--Device Tree-->
 <project path="device/essential/mata" name="device_essential_mata" remote="minimalos"/>
+
+<!--Vendor-->
+<project path="vendor/minimal" name="vendor_minimal" remote="minimalos"/>
 
 </manifest>
